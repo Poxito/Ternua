@@ -73,17 +73,17 @@ def display_score():
     score_rect = score_text.get_rect(topleft=(10, 10))
     screen.blit(score_text, score_rect)
 
-player_image = pygame.image.load("images/arrantzalea.png")
+player_image = pygame.image.load("arrantzalea.png")
 player_rect = player_image.get_rect()
 player_rect.center = (width // 2, 30)
 player_speed = 5
 
-enemy_image = pygame.image.load("images/arraina.png")
+enemy_image = pygame.image.load("arraina.png")
 enemy_rect = enemy_image.get_rect()
 enemy_speed = 2
 reset_game()
 
-bullet_image = pygame.image.load("images/sarea.png")
+bullet_image = pygame.image.load("sarea.png")
 bullet_rect = bullet_image.get_rect()
 bullet_speed = 3
 bullet = None
